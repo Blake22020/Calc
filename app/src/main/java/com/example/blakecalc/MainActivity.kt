@@ -46,9 +46,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_divide).setOnClickListener { onOperationClick(it) }
 
         // Доп. функции
-        findViewById<Button>(R.id.btn_decimal).setOnClickListener { onDecimalClick(it) }
+        findViewById<Button>(R.id.btn_decimal).setOnClickListener { onDecimalClick() }
         findViewById<Button>(R.id.btn_clear).setOnClickListener { onClearClick() }
-        findViewById<Button>(R.id.btn_equals).setOnClickListener { onEqualsClick(it) }
+        findViewById<Button>(R.id.btn_equals).setOnClickListener { onEqualsClick() }
     }
 
     private fun onDigitClick(view: View) {
@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         isOperationPressed = false
     }
 
-    private fun onDecimalClick(view: View) {
+    private fun onDecimalClick() {
         if (currentInput == "Error") onClearClick()
 
         if (!currentInput.contains(".")) {
@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun onEqualsClick(view: View) {
+    private fun onEqualsClick() {
         if (currentInput.isNotEmpty() && currentOperator.isNotEmpty()) {
             val secondValue = currentInput.toDouble()
             val result = when (currentOperator) {
@@ -113,4 +113,6 @@ class MainActivity : AppCompatActivity() {
             isOperationPressed = true
         }
     }
+
+
 }

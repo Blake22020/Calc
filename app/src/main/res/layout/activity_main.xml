@@ -53,36 +53,44 @@
         <!-- Ряд 1 -->
         <Button
             android:id="@+id/btn_7"
+            android:layout_height="70dp"
             android:layout_row="0"
             android:layout_column="0"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="7"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_8"
+            android:layout_height="70dp"
             android:layout_row="0"
             android:layout_column="1"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="8"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_9"
+            android:layout_height="70dp"
             android:layout_row="0"
             android:layout_column="2"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="9"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_divide"
+            android:layout_height="70dp"
             android:layout_row="0"
             android:layout_column="3"
             android:layout_margin="4dp"
+            android:backgroundTint="#009688"
             android:text="/"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
@@ -90,36 +98,44 @@
         <!-- Ряд 2 -->
         <Button
             android:id="@+id/btn_4"
+            android:layout_height="70dp"
             android:layout_row="1"
             android:layout_column="0"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="4"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_5"
+            android:layout_height="70dp"
             android:layout_row="1"
             android:layout_column="1"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="5"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_6"
+            android:layout_height="70dp"
             android:layout_row="1"
             android:layout_column="2"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="6"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_multiply"
+            android:layout_height="70dp"
             android:layout_row="1"
             android:layout_column="3"
             android:layout_margin="4dp"
+            android:backgroundTint="#009688"
             android:text="×"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
@@ -127,36 +143,44 @@
         <!-- Ряд 3 -->
         <Button
             android:id="@+id/btn_1"
+            android:layout_height="70dp"
             android:layout_row="2"
             android:layout_column="0"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="1"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_2"
+            android:layout_height="70dp"
             android:layout_row="2"
             android:layout_column="1"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="2"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_3"
+            android:layout_height="70dp"
             android:layout_row="2"
             android:layout_column="2"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="3"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_subtract"
+            android:layout_height="70dp"
             android:layout_row="2"
             android:layout_column="3"
             android:layout_margin="4dp"
+            android:backgroundTint="#009688"
             android:text="-"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
@@ -165,28 +189,34 @@
 
         <Button
             android:id="@+id/btn_0"
+            android:layout_height="70dp"
             android:layout_row="3"
             android:layout_column="1"
             android:layout_columnSpan="2"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="0"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_decimal"
+            android:layout_height="70dp"
             android:layout_row="4"
             android:layout_column="3"
             android:layout_margin="4dp"
+            android:backgroundTint="#03A9F4"
             android:text="."
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_add"
+            android:layout_height="70dp"
             android:layout_row="3"
             android:layout_column="3"
             android:layout_margin="4dp"
+            android:backgroundTint="#009688"
             android:text="+"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
@@ -195,20 +225,23 @@
         <Button
             android:id="@+id/btn_clear"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_row="4"
             android:layout_column="0"
             android:layout_margin="4dp"
+            android:backgroundTint="#F44336"
             android:text="C"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_equals"
+            android:layout_height="70dp"
             android:layout_row="4"
             android:layout_column="1"
             android:layout_columnSpan="3"
             android:layout_margin="4dp"
+            android:backgroundTint="#4CAF50"
             android:text="="
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
